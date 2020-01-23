@@ -14,6 +14,7 @@ class ButtonForFlagViewController: UIViewController {
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var stackView: UIStackView!
     
     var countries = [String]()
     var score = 0
@@ -30,7 +31,7 @@ class ButtonForFlagViewController: UIViewController {
     }
     
     func askQuestion(action: UIAlertAction!) {
-        
+        stackView.alpha = 0
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         
@@ -49,6 +50,10 @@ class ButtonForFlagViewController: UIViewController {
             counter = 0
         }
         counter += 1
+        
+        UIView.animate(withDuration: 1) {
+            self.stackView.alpha = 1
+        }
     }
     
     func borderConfigurationForBtn() {
@@ -63,7 +68,6 @@ class ButtonForFlagViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
-        
         
         if sender.tag == correctAnswer {
             title = "Correct"

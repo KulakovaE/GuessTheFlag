@@ -65,6 +65,7 @@
                         <outlet property="button2" destination="HaV-rQ-smL" id="AeS-en-rNN"/>
                         <outlet property="button3" destination="bTE-Ss-RRx" id="D1p-hM-kwd"/>
                         <outlet property="scoreLabel" destination="vI6-Fn-3JD" id="Pke-Jt-uM7"/>
+                        <outlet property="stackView" destination="o6U-H4-Gzm" id="JXy-Zp-lfG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UmE-6U-G3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
