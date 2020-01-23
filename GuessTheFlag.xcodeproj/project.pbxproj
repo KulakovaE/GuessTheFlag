@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F368049623D9932D0054361A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368049523D9932D0054361A /* AppDelegate.swift */; };
 		F368049823D9932D0054361A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368049723D9932D0054361A /* SceneDelegate.swift */; };
-		F368049A23D9932D0054361A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368049923D9932D0054361A /* ViewController.swift */; };
 		F368049D23D9932D0054361A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368049B23D9932D0054361A /* Main.storyboard */; };
 		F368049F23D9932E0054361A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F368049E23D9932E0054361A /* Assets.xcassets */; };
 		F36804A223D9932E0054361A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36804A023D9932E0054361A /* LaunchScreen.storyboard */; };
+		F36804AA23D993BF0054361A /* ButtonForFlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36804A923D993BF0054361A /* ButtonForFlagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F368049223D9932D0054361A /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368049523D9932D0054361A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F368049723D9932D0054361A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F368049923D9932D0054361A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F368049C23D9932D0054361A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F368049E23D9932E0054361A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36804A123D9932E0054361A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F36804A323D9932E0054361A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36804A923D993BF0054361A /* ButtonForFlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonForFlagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				F368049523D9932D0054361A /* AppDelegate.swift */,
 				F368049723D9932D0054361A /* SceneDelegate.swift */,
-				F368049923D9932D0054361A /* ViewController.swift */,
 				F368049B23D9932D0054361A /* Main.storyboard */,
+				F36804A923D993BF0054361A /* ButtonForFlagViewController.swift */,
 				F368049E23D9932E0054361A /* Assets.xcassets */,
 				F36804A023D9932E0054361A /* LaunchScreen.storyboard */,
 				F36804A323D9932E0054361A /* Info.plist */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F368049A23D9932D0054361A /* ViewController.swift in Sources */,
+				F36804AA23D993BF0054361A /* ButtonForFlagViewController.swift in Sources */,
 				F368049623D9932D0054361A /* AppDelegate.swift in Sources */,
 				F368049823D9932D0054361A /* SceneDelegate.swift in Sources */,
 			);
