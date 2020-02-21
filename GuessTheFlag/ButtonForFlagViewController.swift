@@ -67,10 +67,16 @@ class ButtonForFlagViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
+       
         var title: String
         
         if sender.tag == correctAnswer {
             title = "Correct"
+            UIView.animate(withDuration: 2, delay: 0,usingSpringWithDamping: 0.5,
+                           initialSpringVelocity: 0.5, options: [], animations: {
+                sender.transform = CGAffineTransform(scaleX: 0.50, y: 0.50)
+                sender.transform = .identity
+            }, completion: nil)
             score += 1
         } else {
             title = "Wrong"

@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="o6U-H4-Gzm">
-                                <rect key="frame" x="107" y="268" width="200" height="360"/>
+                                <rect key="frame" x="107" y="241" width="200" height="414"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLi-x5-qgo">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
@@ -39,22 +39,18 @@
                                             <action selector="buttonTapped:" destination="kEk-qS-LV5" eventType="touchUpInside" id="rce-QV-dEV"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI6-Fn-3JD">
+                                        <rect key="frame" x="0.0" y="390" width="200" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI6-Fn-3JD">
-                                <rect key="frame" x="40" y="798" width="334" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="K5f-R7-877" firstAttribute="bottom" secondItem="vI6-Fn-3JD" secondAttribute="bottom" constant="40" id="00f-t2-NLn"/>
                             <constraint firstItem="o6U-H4-Gzm" firstAttribute="centerY" secondItem="x2y-uE-Nka" secondAttribute="centerY" id="Wmd-z4-ARu"/>
-                            <constraint firstItem="K5f-R7-877" firstAttribute="trailing" secondItem="vI6-Fn-3JD" secondAttribute="trailing" constant="40" id="cgt-jK-EZ9"/>
-                            <constraint firstItem="vI6-Fn-3JD" firstAttribute="centerX" secondItem="x2y-uE-Nka" secondAttribute="centerX" id="ssh-xP-y38"/>
-                            <constraint firstItem="vI6-Fn-3JD" firstAttribute="leading" secondItem="K5f-R7-877" secondAttribute="leading" constant="40" id="y1S-fL-s8p"/>
                             <constraint firstItem="o6U-H4-Gzm" firstAttribute="centerX" secondItem="x2y-uE-Nka" secondAttribute="centerX" id="zJG-Im-CS2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="K5f-R7-877"/>
